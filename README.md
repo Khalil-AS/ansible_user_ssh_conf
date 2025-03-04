@@ -37,6 +37,8 @@ This Ansible role automates the creation and configuration of an SSH user with k
     Ensure the target machine has:
 
       Internet access (for package downloads)
+      
+      Python 3.11.2
 
 🔑 Privileges
 
@@ -99,6 +101,7 @@ Run the playbook:
 ⚙️ Role Variables
 
 Customize the user created and key parameters by modifying (defaults/main.yml):
+    
     # SSH user created
     ssh_user: control
         
