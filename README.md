@@ -26,9 +26,11 @@ This Ansible role automates the creation and configuration of an SSH user with k
 
     Ensure the control machine has:
 
-      Ansible 2.10+
+      Ansible-core 2.15.13
 
-      Python 3.6+
+      Python 3.9.21
+      
+      Paramiko 3.5.1
 
       Ansible collection community.crypto
 
