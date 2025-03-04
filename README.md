@@ -96,10 +96,10 @@ Run the playbook:
 
 ⚙️ Role Variables
 
-Customize the role by modifying defaults/main.yml:
+Customize the user created and key parameters by modifying (defaults/main.yml):
     # SSH user created
     ssh_user: control
-    
+        
     # SSH key settings
     ssh_key_type: ed25519
     ssh_key_path: "/home/{{ ssh_user }}/.ssh/id_{{ ssh_key_type }}"
