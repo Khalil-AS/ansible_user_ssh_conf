@@ -2,7 +2,7 @@
 
 📌 **Overview**
 
-This Ansible role automates the creation and configuration of an SSH user with key-based authentication. It ensures secure access by generating an SSH key, setting up a user, and configuring sudo privileges.
+This Ansible role automates the creation and configuration of an SSH user with key-based authentication. It ensures secure access by generating an SSH key, setting up a user, and configuring sudo privileges to allow running hands-off Playbook.
 
 ✅ **Features**
 
