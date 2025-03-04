@@ -108,3 +108,5 @@ Customize the user created and key parameters by modifying (defaults/main.yml):
     # SSH key settings
     ssh_key_type: ed25519
     ssh_key_path: "/home/{{ ssh_user }}/.ssh/id_{{ ssh_key_type }}"
+
+    # ssh_password: "sha521!!" # ansible-vault in use, path (vars/secrets.yml) password in vault_pass.txt
