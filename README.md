@@ -48,7 +48,7 @@ In this role, the default user is control.
 
     Clone this repository or download it:
 
-      git clone https://github.com/yourusername/ansible-role-user-ssh.git
+      git clone https://github.com/Kharune/ansible_user_ssh_conf.git
       cd ansible-role-user-ssh
 
 2️⃣ Configure Inventory, Playbook, and Ansible Configuration
